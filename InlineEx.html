@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline Example</title>
+    <style>
+        * {
+            margin: 0; padding: 0;
+          }
+          .box{
+             height: 100px;
+             width: 100px;
+             margin: 5px;
+             background-color: aquamarine;
+
+             /* Inline me jitna content hoga utna hi size lega or ek ke bad ek v elements lagte chle jyege or jb size khatm hoga to next line me aa jayega*/
+             /*display: inline;*/
+             display: inline-block;
+             border: 2px dotted rgb(47, 0, 255);
+          }
+    </style>
+</head>
+<body>
+    <div id="box1" class="box">Box1</div>
+    <div id="box2" class="box">Box2</div>
+</body>
+</html>
