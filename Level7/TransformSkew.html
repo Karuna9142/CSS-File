@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform Skew</title>
+    <style>
+        *{
+            margin: 50px;
+            padding: 50px;
+        }
+       .box1 {
+        height: 50px;
+        width: 50px;
+        border: 2px solid black;
+        border-radius: 5px;
+        background-color: rgb(71, 237, 252);
+        position: relative;
+        top: 50pxpx;
+        left: 50px;
+        
+        transition: all 0.5s ease-in;
+       }
+        /*for rotating on x axis y axis*/
+       .box1:hover{
+        transform: skew(45deg);
+       }
+    </style>
+</head>
+<body>
+    <div class="box1">Translate</div>
+</body>
+</html>
